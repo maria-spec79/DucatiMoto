@@ -40,7 +40,7 @@ function opthtml() {
 		collapseWhitespace: true,
     	removeComments: true
 	}))
-	.pipe(dest('dist'));
+	.pipe(dest('./'));
 }
 exports.opthtml = opthtml;
 
