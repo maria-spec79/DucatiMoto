@@ -1,0 +1,90 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-bg {
+  background-image: url(../images/bike_sprite.png);
+  background-position: -3040px 0px;
+  width: 1360px;
+  height: 1019px;
+}
+.icon-bike_black {
+  background-image: url(../images/bike_sprite.png);
+  background-position: -388px 0px;
+  width: 879px;
+  height: 544px;
+}
+.icon-bike_gray {
+  background-image: url(../images/bike_sprite.png);
+  background-position: -1272px 0px;
+  width: 879px;
+  height: 544px;
+}
+.icon-bike_red {
+  background-image: url(../images/bike_sprite.png);
+  background-position: -2156px 0px;
+  width: 879px;
+  height: 544px;
+}
+.icon-ducati-logo {
+  background-image: url(../images/bike_sprite.png);
+  background-position: -291px 0px;
+  width: 92px;
+  height: 98px;
+}
+.icon-e {
+  background-image: url(../images/bike_sprite.png);
+  background-position: -39px 0px;
+  width: 37px;
+  height: 15px;
+}
+.icon-m {
+  background-image: url(../images/bike_sprite.png);
+  background-position: -81px 0px;
+  width: 37px;
+  height: 15px;
+}
+.icon-n {
+  background-image: url(../images/bike_sprite.png);
+  background-position: -123px 0px;
+  width: 37px;
+  height: 15px;
+}
+.icon-o {
+  background-image: url(../images/bike_sprite.png);
+  background-position: -165px 0px;
+  width: 37px;
+  height: 15px;
+}
+.icon-r {
+  background-image: url(../images/bike_sprite.png);
+  background-position: -207px 0px;
+  width: 37px;
+  height: 15px;
+}
+.icon-s {
+  background-image: url(../images/bike_sprite.png);
+  background-position: -249px 0px;
+  width: 37px;
+  height: 15px;
+}
+.icon-t {
+  background-image: url(../images/bike_sprite.png);
+  background-position: 0px 0px;
+  width: 34px;
+  height: 15px;
+}
